@@ -6,6 +6,6 @@ let contact = {
 let newContact = []
 for (let key in contact) {
     // Code goes here
-
+    console.log(contact[key]);
 }
 

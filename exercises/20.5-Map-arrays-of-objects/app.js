@@ -10,4 +10,4 @@ let simplifier = function(person){
 	return person.name;
 };
 
-console.log(people.map(simplifier));
+console.log(people.map(item => `Hello, my name is ${item.name} and I am ${Math.abs(item.birthDate.getFullYear() - new Date().getFullYear())} years old`));
